@@ -1,7 +1,13 @@
 <?php
 
-$nome = "Oi meu querido";
+$texto = "Oi meu querido"; // Variável String
 
-$sobrenome = "teste";
+$numero = 10; // Variável Int
 
-$mais = "mudança";
+$flutuante = 10.5; // Variável ponto flutuante
+
+$carros = array("Corolla", "Civic", "Cruze"); // Array simples
+
+$data = new DateTime(); // Novo objeto
+
+var_dump($carros); // mostra informação sobre a variável em tela
