@@ -30,6 +30,7 @@ echo "</br>";
 echo "</br>";
 
 function variavel_nao_acessivel(){
+    $ip_usuario = "192.168.0.100";
     echo $ip_usuario;
      // Variável de função e global são separadas
 }
