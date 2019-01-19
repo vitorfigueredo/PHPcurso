@@ -11,3 +11,7 @@ $carros = array("Corolla", "Civic", "Cruze"); // Array simples
 $data = new DateTime(); // Novo objeto
 
 var_dump($carros); // mostra informação sobre a variável em tela
+
+$testeGet = $_GET["a"];
+
+var_dump($testeGet);
