@@ -26,6 +26,9 @@ $ip_usuario = $_SERVER["REMOTE_ADDR"];
 
 var_dump($ip_usuario);
 
+echo "</br>";
+echo "</br>";
+
 function variavel_nao_acessivel(){
     echo $ip_usuario;
      // Variável de função e global são separadas
@@ -33,8 +36,13 @@ function variavel_nao_acessivel(){
 
 variavel_nao_acessivel();
 
+echo "</br>";
+echo "</br>";
+
 function variavel_global_acessivel(){
     global $ip_usuario;
 
     echo $ip_usuario;
 }
+
+variavel_global_acessivel();
