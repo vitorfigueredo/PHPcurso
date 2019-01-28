@@ -56,7 +56,7 @@ $valor_dois = 10;
 
 // Operadores Atribuição
 
-$op_atribuicao = "=";
+$op_atribuicao = "="; //Atribuir valor a uma variável
 $op_concatenacao = " . " . "<= é o ponto mesmo";
 $op_adicao_de_variavel = '$variavel_1 .= "o que adicionar (normalmente texto)"';
 $op_incrementar_variavel_valor_qualquer = '$variavel += valor(numero)';
