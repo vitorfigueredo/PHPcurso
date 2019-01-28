@@ -77,7 +77,7 @@ $op_divisao = "/";
 $op_potencia = "**";
 $op_resto_divisao = "%";
 
-echo $valor_dois % 3; // testar operadores de Aritiméticos
+echo $valor_dois % 3 . " Resto de Divisão"; // testar operadores de Aritiméticos
 
 echo "</br>";
 echo "</br>";
@@ -90,3 +90,20 @@ $op_menor = "<";
 $op_diferente_valor = "!=";
 $op_diferente_tipo_valor = "!==";
 $op_maior_igual_ou_menor_unico =  '$a <=> $b, mostra 1 para $a maior, 0 para $a e $b iguais e -1 para $b maior'; 
+$op_descartar_valor_nulo_mostrar = '$a ?? $b ?? $c, se $a for NULL mostrará b, mas se $b também NULL mostrará C ou se todos forem NULL, não mostrará nenhum! Mostrará somente o primeiro valor não NULL. APENAS PHP 7';
+
+$valor_null = NULL;
+$valor_null_b = NULL;
+$valor_null_c = 9;
+
+echo $valor_null ?? $valor_null_b ?? $valor_null_c;
+
+echo "</br>";
+echo "</br>";
+
+//Operadores Lógicos
+
+echo "</br>";
+echo "</br>";
+
+//String
