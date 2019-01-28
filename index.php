@@ -83,6 +83,10 @@ echo "</br>";
 echo "</br>";
 
 //Operadores de comparação
-$op_igualdade = "==";
+$op_igualdade_valor = "==";
+$op_igualdade_tipo_valor = "===";
 $op_maior = ">";
 $op_menor = "<";
+$op_diferente_valor = "!=";
+$op_diferente_tipo_valor = "!==";
+$op_maior_igual_ou_menor_unico =  '$a <=> $b, mostra 1 para $a maior, 0 para $a e $b iguais e -1 para $b maior'; 
