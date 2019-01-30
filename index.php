@@ -106,4 +106,61 @@ echo "</br>";
 echo "</br>";
 echo "</br>";
 
-//String
+//String Aula 18
+
+$String_Aspas_duplas = "Quando for utilizada aspas duplas, uma variável é utomaticamente concatenada, como esse exemplo do valor de: $valor_um"; //Dessa forma não é necessário utilizar . para concatenar texto com variável
+echo $String_Aspas_duplas;
+
+$string_nome = "Vitor dos Santos Figueredo";
+
+$string_nome_primeira = "vitor dos santos figueredo";
+
+echo "</br>";
+echo "</br>";
+
+echo strtoupper($string_nome);// transforma todo o texto em maiusculo.
+
+echo "</br>";
+echo "</br>";
+
+echo strtolower($string_nome); // transforma o texto inteiro em letras minusculas.
+
+echo "</br>";
+echo "</br>";
+
+echo ucwords($string_nome_primeira); // Função transforma a primera letra de cada palavra em maiuscula
+
+echo "</br>";
+echo "</br>";
+
+$string_replace = "nome";
+
+echo $string_replace = str_replace("o", "0", $string_replace);
+
+echo "</br>";
+echo "</br>";
+
+$string_busca = "A repetição é mãe da retenção!";
+
+$string_palavra_busca = "mãe";
+
+echo $q = strpos($string_busca, $string_palavra_busca);
+
+echo "</br>";
+echo "</br>";
+
+var_dump($q);
+
+echo "</br>";
+echo "</br>";
+
+$string_antes_q = substr($string_busca, 0 , $q);
+
+var_dump($string_antes_q);
+
+echo "</br>";
+echo "</br>";
+
+$string_depois_q = substr($string_busca, $q + strlen($string_palavra_busca));
+
+var_dump($string_depois_q);

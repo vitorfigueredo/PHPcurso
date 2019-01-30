@@ -12,3 +12,7 @@ Operadores no PHP,
 Aula dia 28/01/19:
 Completei aula 17 de operadores,
 Comecei aula 18 sobre String,
+
+Aula dia 29/01/19
+Terminei aula 18,
+Inicio aula 19 sobre include e require,
