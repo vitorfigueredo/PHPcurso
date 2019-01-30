@@ -21,3 +21,7 @@ Aula 30/01/19:
 Terminei include e require,
 Erros fatais no PHP 7 não interropem mais a execução do restante do código,
 Inicio aula sobre If, Else e ElseIf,
+Inicio aula 21 Switch Case,
+Termino aula 21,
+Aula 22 estrutura de repetição,
+Aula 23 Foreach,

@@ -108,7 +108,7 @@ echo "</br>";
 
 //String Aula 18
 
-$String_Aspas_duplas = "Quando for utilizada aspas duplas, uma variável é utomaticamente concatenada, como esse exemplo do valor de: $valor_um"; //Dessa forma não é necessário utilizar . para concatenar texto com variável
+$String_Aspas_duplas = "Quando for utilizada aspas duplas, uma variável é automaticamente concatenada, como esse exemplo do valor de: $valor_um"; //Dessa forma não é necessário utilizar . para concatenar texto com variável
 echo $String_Aspas_duplas;
 
 $string_nome = "Vitor dos Santos Figueredo";
@@ -180,3 +180,42 @@ echo "</br>";
 require "requerir.php"; // O arquivo deve existir e não pode ter erros
 require_once "requerir.php"; // faz com que não ocorra erro caso o arquivo seja chamado 2 ou mais vezes!
 echo diminuir(25, 14.86);
+
+echo "</br>";
+echo "</br>";
+
+//Segue uso de Switch Case
+$teste_switch = "Cu";
+
+switch ($teste_switch) {
+    case 'Oi':
+        echo "Foi oi mesmo!";
+        break;
+    
+    case 'Ai':
+        echo "Deu com a cara no Porta!";
+        break;
+    
+    default:
+        echo "Está com o cu na mão!";
+        break;
+}
+
+echo "</br>";
+echo "</br>";
+
+// Extrutura de repetição
+
+for ($i=0; $i < 10; $i++) { 
+
+    if($i > 3 && $i < 7) continue; // Não mostrar o conteudo do FOR enquanto atender o IF
+    if($i > 11) break;// Para totalmente a execução do FOR quando atender o IF
+
+    echo "Chegou a encomenda número: " . $i;
+    echo "</br>";
+}
+
+echo "</br>";
+echo "</br>";
+
+//Aula Foreach
