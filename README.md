@@ -19,4 +19,5 @@ Inicio aula 19 sobre include e require,
 
 Aula 30/01/19:
 Terminei include e require,
-Erros fatais no PHP 7 não interropem mais a execução do restante do código
+Erros fatais no PHP 7 não interropem mais a execução do restante do código,
+Inicio aula sobre If, Else e ElseIf,
