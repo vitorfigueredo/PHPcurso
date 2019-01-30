@@ -164,3 +164,19 @@ echo "</br>";
 $string_depois_q = substr($string_busca, $q + strlen($string_palavra_busca));
 
 var_dump($string_depois_q);
+
+echo "</br>";
+echo "</br>";
+
+// Usando include e require
+include "incluir.php"; // Include não para execução do código
+include_once "incluir.php"; // faz com que não ocorra erro caso o arquivo seja chamado 2 ou mais vezes!
+
+echo somar(10, 36);
+
+echo "</br>";
+echo "</br>";
+
+require "requerir.php"; // O arquivo deve existir e não pode ter erros
+require_once "requerir.php"; // faz com que não ocorra erro caso o arquivo seja chamado 2 ou mais vezes!
+echo diminuir(25, 14.86);
