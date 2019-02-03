@@ -25,3 +25,8 @@ Inicio aula 21 Switch Case,
 Termino aula 21,
 Aula 22 estrutura de repetição,
 Aula 23 Foreach,
+
+Aula 03/02/19
+Aula 23 Foreach,
+Aula 24 While,
+Aula 25 Arrays,

@@ -219,3 +219,41 @@ echo "</br>";
 echo "</br>";
 
 //Aula Foreach
+
+?>
+
+<form>
+    <input type="text" name="nome" id="">
+    <input type="text" name="sexo" id="">
+    <input type="submit" value="enviar">
+</form>
+
+<?php
+
+if (isset($_GET)) {
+    foreach ($_GET as $key => $value) {
+        echo "Nome do Campo: " . $key . "</br>";
+        echo "Valor: " . $value . "</br>";
+        echo "<hr>";
+    }
+}
+
+//Exemplo de DO WHILE, DO para executar um código, enquanto o argumento em WHILE não for atingido. Cuidar para não gerar loop infinito
+
+$while_desconto = 0.8;
+$while_total = 155;
+
+
+do {
+    $while_total *= $while_desconto;
+} while ($while_total >= 98.5);
+
+echo "</br>";
+echo "</br>";
+
+echo $while_total;
+
+echo "</br>";
+echo "</br>";
+
+// Arrays
