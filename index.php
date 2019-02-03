@@ -257,3 +257,27 @@ echo "</br>";
 echo "</br>";
 
 // Arrays
+echo "Arrays de uma e duas dimensões" . "</br>";
+
+$array_uma_dimensao[0] = "uma dimensão";
+$array_uma_dimensao[1] = "uma dimensão + 01";
+
+$array_duas_dimensoes[0][0] = "duas dimensões index 0";
+$array_duas_dimensoes[0][1] = "duas dimensões index 0 + 01";
+
+$array_duas_dimensoes[1][0] = "duas dimensões index 1";
+$array_duas_dimensoes[1][1] = "duas dimensões index 1 + 01";
+
+echo $array_uma_dimensao[0] . "</br>";
+echo $array_duas_dimensoes[1][1] . "</br>";
+echo end($array_duas_dimensoes[0]);
+
+echo "</br>";
+echo "</br>";
+
+//JSON
+
+$pessoas = array();
+
+array_push($pessoas, array('nome' => 'Vitor Figueredo', 'idade' => 30));
+array_push($pessoas, array('nome' => 'Lais Martinelli Comim', 'idade' => 30));
