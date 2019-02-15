@@ -311,3 +311,67 @@ echo "</br>";
 session_start();
 
 $_SESSION['NAME'] = 'Vitor Testando';
+
+echo "</br>";
+echo "</br>";
+
+function olaMundo($texto){
+    return 'Olá mundo ingrato, por isso: ' . $texto;
+}
+
+echo olaMundo("Viva sem desespero!");
+
+echo "</br>";
+echo "</br>";
+
+//Segue comparação de parametro com e sem referência. Com referênvia, permite que a função escreva na memória global o valor do parametro.
+function valor_valor($valor_valor){
+    $valor_valor += 50;
+
+    return $valor_valor;
+}
+
+$valor_valor_um = 24;
+
+echo valor_valor($valor_valor_um);
+
+echo "</br>";
+echo "</br>";
+
+function valor_referencia(&$valor_referencia){
+    $valor_referencia += 50;
+
+    return $valor_referencia;
+}
+
+$valor_valor_dois = 24;
+
+echo valor_referencia($valor_valor_dois);
+
+echo "</br>";
+echo "</br>";
+
+echo $valor_valor_um . "<br>" . $valor_valor_dois;
+
+echo "</br>";
+echo "</br>";
+
+// Abaixo função para somar todos os valores de um array, de modo que pode-se passar n parametros em uma função de soma.
+function somar_tudo(float ...$valores){
+    return array_sum($valores);
+}
+
+echo "A soma total de SOMAR_TUDO É = " . somar_tudo(10, 14, 34.45, 10);
+
+echo "</br>";
+echo "</br>";
+
+//Dessa forma o retorno fica com o tipo de variável passada após os :
+function somar_tudo_retorno(float ...$valores):float {
+    return array_sum($valores);
+}
+
+echo "A soma total de SOMAR_TUDO_RETORNO É = " . var_dump(somar_tudo_retorno(10, 14, 34.45, 10));
+
+echo "</br>";
+echo "</br>";

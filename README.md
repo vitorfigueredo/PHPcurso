@@ -35,3 +35,8 @@ Aula 15/02/19
 Aula 26 constantes,
 Aula 27 Criando Sessões,
 Aula 28 ID Sessão,
+Aula 29 Mudndo ID Sessão,
+Aula 30 Funções com Return,
+Aula 31 Funções com parametros,
+Aula 32 Funções com Valor e Referência,
+Aula 33 Funções no PHP 7,
