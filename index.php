@@ -281,3 +281,33 @@ $pessoas = array();
 
 array_push($pessoas, array('nome' => 'Vitor Figueredo', 'idade' => 30));
 array_push($pessoas, array('nome' => 'Lais Martinelli Comim', 'idade' => 30));
+
+
+echo $pessoas[0]['nome'];
+
+echo "</br>";
+echo "</br>";
+// Constantes
+
+define('IP_HOST', '127.0.0.1'); // pode ser utilizado em várias versões, é comum utilizar DEFINE para banco de dados e outras constantes
+
+echo IP_HOST;
+
+echo "</br>";
+echo "</br>";
+
+define('DATA_BASE', ['HOST' => 'localhost', 'DB_NAME' => 'teste', 'USER_NAME' => 'Vitor_teste', 'PASSWORD' => 'teste']);
+
+var_dump(DATA_BASE);
+
+echo "</br>";
+echo "</br>";
+
+echo PHP_VERSION;
+
+echo "</br>";
+echo "</br>";
+
+session_start();
+
+$_SESSION['NAME'] = 'Vitor Testando';

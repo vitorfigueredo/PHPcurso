@@ -30,3 +30,8 @@ Aula 03/02/19
 Aula 23 Foreach,
 Aula 24 While,
 Aula 25 Arrays,
+
+Aula 15/02/19
+Aula 26 constantes,
+Aula 27 Criando Sessões,
+Aula 28 ID Sessão,
