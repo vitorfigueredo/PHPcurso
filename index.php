@@ -375,3 +375,11 @@ echo "A soma total de SOMAR_TUDO_RETORNO É = " . var_dump(somar_tudo_retorno(10
 
 echo "</br>";
 echo "</br>";
+
+echo "Funções anônimas não possuem nome nem retorno";
+
+$funAnomina = function(){
+    echo "Essa função é anônima";
+};
+echo "</br>";
+$funAnomina();
