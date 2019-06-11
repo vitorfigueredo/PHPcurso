@@ -383,3 +383,30 @@ $funAnomina = function(){
 };
 echo "</br>";
 $funAnomina();
+
+echo "</br>";
+echo "</br>";
+
+// mostra a hora do sistema d para dia, m para mês e Y para ano com 4 digitos. H para hora em 24, i minutos e s segundos
+echo date("d/m/Y H:i:s"); // no site do php olhar manual php para função date, mostra todas as combinações possíveis
+
+echo "</br>";
+echo "</br>";
+
+echo date("D d/m/Y", $tp);
+
+echo "</br>";
+echo "</br>";
+//transforma uma data no modo inglês para TimeStamp(tempo em segundos). Aceita vários tipos de valores
+$tp = strtotime("1988-12-21");
+
+echo "</br>";
+echo "</br>";
+
+//passa sistema de data para português brasil ou outro idioma/região
+setlocale(LC_ALL, "pt_BR", "pt_BR.utf-8", "portuguese");
+
+echo "</br>";
+echo "</br>";
+// funciona com setlocale, aceita vários parametros seguidos, usando percentual junto
+echo strftime("%A %B");

@@ -44,4 +44,8 @@ Aula 33 Funções no PHP 7,
 Aula 10/06/19
 Aula 34 Funções do PHP 7,
 Aula 35 Funções Recursivas,
-Aula 37 Funções Anônimas,
+Aula 36 Funções Anônimas,
+
+Aula 11/06/2019
+Aula 37 Funções date() e time(),
+Aula 38 Definindo configuração Regional,
