@@ -405,8 +405,18 @@ echo "</br>";
 
 //passa sistema de data para português brasil ou outro idioma/região
 setlocale(LC_ALL, "pt_BR", "pt_BR.utf-8", "portuguese");
+echo "Foi setado local BR";
 
 echo "</br>";
 echo "</br>";
 // funciona com setlocale, aceita vários parametros seguidos, usando percentual junto
-echo strftime("%A %B");
+echo "Retorno dos parametros A e B: ";
+echo strftime("%A, %B");
+
+echo "</br>";
+echo "</br>";
+
+$obDate = new DateTime();
+
+echo "Objeto date: ";
+echo $obDate->format("d/m/Y H:i");
