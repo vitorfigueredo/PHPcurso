@@ -420,3 +420,8 @@ $obDate = new DateTime();
 
 echo "Objeto date: ";
 echo $obDate->format("d/m/Y H:i");
+echo "</br>";
+$adDias = new DateInterval("P15D");
+$obDate->add($adDias);
+echo "Objeto date + 15 dias: ";
+echo $obDate->format("d/m/Y H:i");
