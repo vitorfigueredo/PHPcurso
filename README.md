@@ -52,3 +52,6 @@ Aula 38 Definindo configuração Regional,
 Aula 39 DateTime,
 Aula 40 Introdução a Orientação a Objetos,
 Aula 41 Criando Classes,
+
+Aula 25/06/2019
+Aula 42 Atributos e Métodos,
