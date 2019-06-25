@@ -55,3 +55,4 @@ Aula 41 Criando Classes,
 
 Aula 25/06/2019
 Aula 42 Atributos e Métodos,
+Aula 43 Métodos Estáticos; Refazer em casa,
